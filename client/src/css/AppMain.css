@@ -1,0 +1,282 @@
+.carousel-wrapper{
+	padding-top: 75px;
+}
+.carousel{
+	overflow: hidden;
+	max-height: 630px;
+}
+.carousel img{
+	min-width: 1000px;
+}
+.carousel-caption{
+	left: 460px;
+	top: 120px;
+	text-align: left;
+}
+.carousel-caption h1{
+	font-size: 84px;
+	padding-bottom: 0;
+}
+.carousel-caption h3{
+	padding-bottom: 40px;
+	font-size: 22px;
+}
+.carousel-indicators{
+	position: relative;
+	left: 0 !important;
+	bottom: -600px !important;
+	display: flex;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	-ms-align-items: center;
+	align-items: center;
+}
+.categorie-title:after{
+    content: "";
+    width: 7%;
+    height: 2px;
+    background-color: #666;
+    bottom: 0;
+    right: 50%;
+    margin: 20px;
+}
+.main-products{
+	width: 150px;
+	margin: 50px auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	text-align: center;
+	min-width: 1px;
+	font-size: 24px;
+	font-weight: bold;
+    letter-spacing: normal;
+	color: #333;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #333;
+}
+.main-wrapper{
+	width: 65%;
+	-ms-align-items: center;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	padding-top: 25px;
+}
+.banner{
+	background-color: #D9252E;
+}
+.banner > img{
+	height: 125px;
+	width: auto;
+}
+
+@media only screen and (min-width: 1920px) {
+	.carousel .carousel-inner .carousel-item{
+		min-height: 630px;
+	}
+	.carousel .carousel-caption{
+		left: 500px;
+		top: 100px;
+	}
+	.carousel .carousel-caption h1{
+		font-size: 84px;
+	}
+	.carousel .carousel-caption h3{
+		padding-top: 20px;
+		padding-bottom: 60px;
+		font-size: 28px;
+	}
+	.btn-white{
+		font-size: 28px;
+	}
+
+}
+@media only screen and (max-width: 1920px) {
+	.carousel .carousel-inner .carousel-item{
+		min-height: 630px;
+	}
+	.carousel .carousel-caption{
+		left: 350px;
+		top: 100px;
+	}
+	.carousel .carousel-caption h1{
+		font-size: 72px;
+	}
+	.carousel .carousel-caption h3{
+		padding-top: 20px;
+		padding-bottom: 60px;
+		font-size: 22px;
+	}
+	.btn-white{
+		font-size: 22px;
+	}
+
+}
+@media only screen and (max-width: 1440px) {
+	.carousel .carousel-inner .carousel-item{
+		min-height: 600px;
+	}
+	.carousel .carousel-caption{
+		left: 220px;
+		top: 80px;
+	}
+	.carousel .carousel-caption h1{
+		font-size: 60px;
+	}
+	.carousel .carousel-caption h3{
+		padding-bottom: 50px;
+		font-size: 22px;
+	}
+	.btn-white{
+		font-size: 22px;
+		padding: 10px;
+	}
+	.wrapper{
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.carousel .carousel-inner .carousel-item{
+		min-height: 500px;
+	}
+	.carousel .carousel-caption{
+		left: 160px;
+		top: 50px;
+	}
+	.carousel .carousel-caption h1{
+		font-size: 48px;
+	}
+	.carousel .carousel-caption h3{
+		padding-bottom: 50px;
+		font-size: 20px;
+	}
+	.btn-white{
+		font-size: 20px;
+		padding: 10px;
+	}
+	.wrapper{
+		width: 90%;
+	}
+	.product{
+		width: 25%;
+	}
+	.categorie-title-text{
+		font-size: 22px;
+	}
+	.categorie-title:before, .categorie-title:after{
+		width: 35%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.carousel .carousel-inner .carousel-item{
+		min-height: 450px;
+	}
+	.carousel .carousel-caption{
+		left: 130px;
+		top: 50px;
+	}
+	.carousel .carousel-caption h1{
+		font-size: 34px;
+	}
+	.carousel .carousel-caption h3{
+		padding-bottom: 30px;
+		font-size: 18px;
+	}
+	.btn-white{
+		font-size: 18px;
+		padding: 10px;
+	}
+	.wrapper{
+		width: 90%;
+	}
+	.product{
+		width: 50%;
+	}
+	.categorie-title-text{
+		font-size: 19px;
+	}
+	.categorie-title:before, .categorie-title:after{
+		width: 30%;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.carousel .carousel-inner .carousel-item{
+		min-height: 350px;
+	}
+	.carousel .carousel-caption{
+		left: 80px;
+		top: 20px;
+	}
+	.carousel .carousel-caption h1{
+		font-size: 26px;
+	}
+	.carousel .carousel-caption h3{
+		padding-bottom: 30px;
+		font-size: 16px;
+	}
+	.btn-white{
+		font-size: 16px;
+		padding: 10px;
+	}
+	.product{
+		width: 100%;
+	}
+	.categorie-title-text{
+		font-size: 18px;
+	}
+	.categorie-title:before, .categorie-title:after{
+		width: 23%;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.carousel .carousel-inner .carousel-item{
+		min-height: 300px;
+	}
+	.carousel .carousel-caption{
+		left: 80px;
+		top: 20px;
+	}
+	.carousel .carousel-caption h1{
+		font-size: 22px;
+	}
+	.carousel .carousel-caption h3{
+		padding-bottom: 20px;
+		font-size: 14px;
+	}
+	.btn-white{
+		font-size: 14px;
+		padding: 10px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.carousel .carousel-inner .carousel-item{
+		min-height: 300px;
+	}
+	.carousel .carousel-caption{
+		left: 60px;
+		top: 10px;
+	}
+	.carousel .carousel-caption h1{
+		font-size: 22px;
+	}
+	.carousel .carousel-caption h3{
+		padding-bottom: 20px;
+		font-size: 14px;
+	}
+	.btn-white{
+		font-size: 14px;
+		padding: 10px;
+	}
+}
